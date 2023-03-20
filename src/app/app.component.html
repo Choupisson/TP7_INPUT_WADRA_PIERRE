@@ -1,0 +1,8 @@
+
+<div style="background-color: red; padding: 20px;">
+    <app-tirelire1 [valeur]="tirelire1" (utiliser)="utiliserTirelire($event, '0')"></app-tirelire1>
+    <app-tirelire2 [valeur]="tirelire2" (utiliser)="utiliserTirelire($event,'0')"></app-tirelire2>
+    <app-tirelire3 [valeur]="tirelire3" (utiliser)="utiliserTirelire($event,'0')"></app-tirelire3>
+    <button (click)="ajouter100Fr()">Ajouter 100 Fr</button>
+  </div>
+  
